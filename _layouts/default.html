@@ -21,35 +21,31 @@
   </head>
 
   <body>
-    <div class="wrapper-masthead">
-      <div class="container">
-        <header class="masthead clearfix">
-          <a href="{{ site.baseurl }}/" class="site-avatar"><img src="{{ site.avatar }}" /></a>
-          
-          <div class="site-info">
-            <h1 class="site-name"><a href="{{ site.baseurl }}/">{{ site.name }}</a></h1>
-            <p class="site-description">{{ site.description }}</p>
-          </div>
-          
-          <nav>
-            <a href="{{ site.baseurl }}/">Blog</a>
-            <a href="{{ site.baseurl }}/about">About</a>
-          </nav>
-        </header>
-      </div>
-    </div>
 
-    <div id="main" role="main" class="container">
+    <div id="container">
+        <header class="group">
+
+          <div id="logo"><h1><a href="{{ site.baseurl }}">5id</a></h1></div>
+
+          <nav class="group">
+            <ul class="global-nav">
+              <li><a href="#">Portfolio</a></li>
+              <li><a href="{{ site.baseurl }}/about">About</a></li>
+              <li><a href="{{ site.baseurl }}">Blog</a></li>
+            </ul>
+          </nav>
+
+        </header>
+
+    <div id="content" role="main" class="container">
       {{ content }}
     </div>
 
-    <div class="wrapper-footer">
-      <div class="container">
-        <footer class="footer">
-          {% include svg-icons.html %}
-        </footer>
-      </div>
-    </div>
+    <footer class="group">
+      {% include social.html %}
+    </footer>
+
+  </div>
 
     {% include analytics.html %}
   </body>

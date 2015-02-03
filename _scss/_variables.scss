@@ -4,13 +4,14 @@
 //
 
 // Colors
-$blue: #4183C4; 
+$blue: rgb(93,133,179);
+$darkBlue: rgb(58,85,117);
 
 // Grays
 $black: #000;
 $darkerGray: #222;
-$darkGray: #333;
-$gray: #666;
+$darkGray: #444;
+$gray: rgb(100,100,100);
 $lightGray: #eee;
 $white: #fff;
 
@@ -18,6 +19,8 @@ $white: #fff;
 $helvetica: Helvetica, Arial, sans-serif;
 $helveticaNeue: "Helvetica Neue", Helvetica, Arial, sans-serif;
 $georgia: Georgia, serif;
+$openSans: 'Open Sans', Helvetica, Arial, Helvetica, sans-serif;
+$courier: Courier, "Courier New", Monaco, Tahoma;
 
 // Mobile breakpoints
 @mixin mobile {
