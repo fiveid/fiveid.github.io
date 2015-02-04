@@ -285,12 +285,24 @@ header nav ul li {
 
   @include mobile {
     padding: 0 5%;
+    display: inline-block;
+    width: 100px;
   }
 
 }
 
+header nav ul li a.current {
+  border-bottom: 3px solid;
+  padding-bottom: 5px;
+}
+
 header .global-nav a {
   margin-right: 20px;
+
+  @include mobile {
+    margin-right: 0px;
+  }
+
 }
 
 header .context-nav a {
@@ -387,4 +399,145 @@ p.meta {
 
 .prev {
   float: left;
+}
+
+/* !PORTFOLIO */
+
+#portfolio {
+  margin: 0px auto 60px;
+  width: 630px;
+
+  @include mobile {
+    width: 95%;
+  }
+
+  h2 {
+    width: 100%;
+    margin-bottom: 0.8em;
+    color: $darkBlue;
+    font-size: 1.3em;
+
+    @include mobile {
+      text-align: center;
+    }
+
+  }
+
+  ul {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 0;
+    overflow: hidden;
+
+    li {
+      overflow: hidden;
+      float: left;
+      border: 1px solid $subtleBlue;
+      width: 200px;
+      height: 200px;
+      margin: 5px;
+      padding: 10px;
+      position: relative;
+
+      img {
+        height: 100%;
+        width: 100%;
+      }
+
+      @include mobile {
+        width: 230px;
+        height: 230px;
+        float: none;
+        margin: 5px auto;
+      }
+
+    }
+
+  }
+
+}
+
+/* Project Page */
+
+#header-image {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 320px;
+  background-color: $darkerBlue;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: 50%;
+
+  &.moonstone {
+    background-color: $moonstone;
+  }
+  &.spicy-manta {
+    background-color: $spicyManta;
+  }
+  &.sift {
+    background-color: $sift;
+  }
+  &.wisp {
+    background-color: $wisp;
+  }
+
+}
+
+#sub-nav {
+  position: fixed;
+  width: 160px;
+
+  ul {
+    padding-left: 0;
+  }
+
+  li {
+    width: 100%;
+    list-style: none;
+    margin-left: 0;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-size: 0.8em;
+
+    a {
+      width: 100%;
+      display: block;
+    }
+
+  }
+
+}
+
+body.project-page {
+
+  #content {
+    margin-top: 200px;
+  }
+
+  header a {
+    color: $white;
+  }
+
+  #logo a {
+      background-image: url('images/5id_logo_roundel-alt.png');
+  }
+
+  h1 {
+    font-size: 2.8em;
+    color: rgb(54,83,115);
+    margin-bottom: 0.2em;
+  }
+
+  h2 {
+    font-size: 1.2em;
+    font-style: italic;
+    color: $blue;
+  }
+
+  h3 {
+    font-size: 1.5em;
+  }
+
 }
