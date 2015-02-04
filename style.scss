@@ -284,9 +284,9 @@ header nav ul li {
   display: inline;
 
   @include mobile {
-    padding: 0 5%;
+    padding: 0 1%;
     display: inline-block;
-    width: 100px;
+    width: 70px;
   }
 
 }
