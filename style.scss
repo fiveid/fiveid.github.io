@@ -194,31 +194,59 @@ header,
 header {
   padding: 60px 0 0;
   margin: 0 auto 0px;
-  color: #afe1da;
+
+  a {
+    color: $blue;
+  }
+
 }
-header a { color: rgb(93,133,179); }
-header h1 a,
-header a:hover { color: rgb(54,83,115); }
+
 header h1 {
   font-weight: bold;
   margin: 0;
   float: left;
+  overflow: hidden;
+
+  a {
+    color: $darkBlue;
+  }
+
+  @include mobile {
+    width: 100%;
+    float: none;
+  }
+
 }
 
 #logo {
   position: fixed;
-}
-
-#logo a {
-  width: 120px;
-  height: 120px;
   overflow: hidden;
-  float: left;
-  background-image: url('images/5id_logo_roundel-alt.png');
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center center;
-  text-indent: 150px;
+
+  a {
+    width: 120px;
+    height: 120px;
+    overflow: hidden;
+    float: left;
+    background-image: url('images/5id_logo_roundel-alt.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-indent: 150px;
+
+    @include mobile {
+      display: block;
+      margin: 0 auto;
+      float: none;
+      overflow: hidden;
+    }
+
+  }
+
+  @include mobile {
+    position: relative;
+    width: 100%;
+  }
+
 }
 
 header nav {
@@ -227,10 +255,21 @@ header nav {
   margin: 45px auto 0;
   padding: 0;
   position: relative;
-}
 
-header nav ul {
-  padding: 0;
+  ul {
+    padding: 0;
+
+    @include mobile {
+      width: 100%;
+      text-align: center;
+    }
+
+  }
+
+  @include mobile {
+    width: 100%;
+  }
+
 }
 
 .global-nav {
@@ -241,8 +280,12 @@ header nav ul {
   float: right;
 }
 
-header nav ul li { display: inline; }
-header nav ul li.current-page a {
+header nav ul li {
+  display: inline;
+
+  @include mobile {
+    padding: 0 5%;
+  }
 
 }
 
@@ -256,54 +299,61 @@ header .context-nav a {
 
 header .context-nav a {
   padding: 5px 10px;
-  background-color: rgb(93,133,179);
-  -moz-border-radius: 3px; /* Firefox */
-  -webkit-border-radius: 3px; /* Safari, Chrome */
-  border-radius: 3px; /* CSS3 */
-  color: rgb(244,244,244);
+  background-color: $darkBlue;
+  color: $lightGray;
+
+  @include border-radius(3px);
+
 }
+
+/* Content */
 
 #content {
   margin: 60px auto 30px;
 }
 
+/* Footer */
+
 footer {
   width: 600px;
   padding: 10px 0;
   margin: 0px auto 0;
-  border-top: 1px dashed rgb(92,133,179);
+  border-top: 1px dashed $darkBlue;
   text-align: right;
   font-size: 13px;
-  color: rgb(92,133,179);
-  box-sizing: border-box;
-  -moz-box-sizing: border-box;
+  color: $darkBlue;
+
+  @include box-sizing(border-box);
+
+  @include mobile {
+    width: 90%;
+  }
+
 }
 
 footer ul {
   padding: 0;
+  li {
+    list-style-type: none;
+    display: inline;
+  }
 }
 
 #social {
   float: left;
   text-align: left;
-}
+  li {
+    margin-right: 10px;
+  }
 
-footer ul li {
-  list-style-type: none;
-  display: inline;
 }
 
 #legal {
   float: right;
   text-align: right;
-}
-
-#social li {
-  margin-right: 10px;
-}
-
-#legal li {
-  margin-left: 10px;
+  li {
+    margin-left: 10px;
+  }
 }
 
 /* !BLOG POSTS */
@@ -311,10 +361,15 @@ footer ul li {
 .post {
   width: 600px;
   margin: 60px auto;
-}
 
-.post img {
-  max-width: 100%;
+  img {
+    max-width: 100%;
+  }
+
+  @include mobile {
+    width: 95%;
+  }
+
 }
 
 p.meta {
