@@ -37,6 +37,12 @@ $courier: Courier, "Courier New", Monaco, Tahoma;
   }
 }
 
+@mixin tablet {
+  @media screen and (max-width: 1024px) {
+    @content;
+  }
+}
+
 // Rounded Corners
 @mixin border-radius($radius) {
   -webkit-border-radius: $radius;

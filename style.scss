@@ -256,6 +256,10 @@ header nav {
   padding: 0;
   position: relative;
 
+  @include mobile {
+    width: 100%;
+  }
+
   ul {
     padding: 0;
 
@@ -266,33 +270,38 @@ header nav {
 
   }
 
-  @include mobile {
-    width: 100%;
+  li {
+    display: inline;
+
+    @include mobile {
+      width: 30%;
+      display: inline-block;
+    }
+
+    a.current {
+      border-bottom: 3px solid;
+      padding-bottom: 5px;
+    }
+
   }
 
 }
 
 .global-nav {
   float: left;
-}
 
-.context-nav {
-  float: right;
-}
-
-header nav ul li {
-  display: inline;
+  @include tablet {
+    float: right;
+  }
 
   @include mobile {
-    padding: 0 1%;
-    display: inline-block;
+    float: none;
   }
 
 }
 
-header nav ul li a.current {
-  border-bottom: 3px solid;
-  padding-bottom: 5px;
+.context-nav {
+  float: right;
 }
 
 header .global-nav a {
