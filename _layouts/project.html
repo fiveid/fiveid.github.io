@@ -23,7 +23,9 @@
     <!-- Created with Jekyll Now - http://github.com/barryclark/jekyll-now -->
   </head>
 
-  <body>
+  <body class="project-page">
+
+    <div id="header-image" class="{{ page.class }}" style="background-image:url('{{ page.header }}');"></div>
 
     <div id="container">
         <header class="group">
@@ -31,7 +33,26 @@
         </header>
 
     <div id="content" role="main" class="container">
-      {{ content }}
+
+      <div id="sub-nav">
+        <ul>
+          <li><a href="#">Purpose</a>
+          </li>
+          <li><a href="#">Scraping</a>
+          </li>
+          <li><a href="#">Design Patterns</a>
+          </li>
+          <li><a href="#">Tools</a>
+          </li>
+        </ul>
+      </div>
+
+      <div id="portfolio-page" class="post group">
+
+        {{ content }}
+
+      </div>
+
     </div>
 
     <footer class="group">
