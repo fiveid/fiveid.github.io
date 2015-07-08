@@ -1,7 +1,11 @@
 - name: Gridmaker
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_gridmaker.png
-  url:
+  url: https://github.com/fiveid/gmaps-gridlines
 
 - name: Name That Tune
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_quiz.png
-  url:
+  url: http://fiveid.co.uk/projects/demos/namethattune
+
+- name: Write Your Own Text Adventure in Rust
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_rustadventure.png
+  url: https://github.com/fiveid/wyo_adventure
