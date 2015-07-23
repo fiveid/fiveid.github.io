@@ -3,7 +3,7 @@ layout: post
 title: Playing Around with Swift Enums
 ---
 
-I've found studying new languages to be a great way to learn programming concepts that I've otherwise overlooked or ignored. Swift is no exception, presenting a feature set and design emphasis that I find particularly interesting. Fortunately, Playgrounds have provide a neat way to faff about with Swift in a completely contrived, but pretty fun, way.
+I've found studying new languages to be a great way to learn programming concepts that I've otherwise overlooked or ignored. Swift is no exception, presenting a feature set and design emphasis that I find particularly interesting. Fortunately, Playgrounds provide a neat way to faff about with Swift in a completely contrived (but fun) way.
 
 I figured there may be other people out there who, like me, are learning the language and might want to share my experience.
 
@@ -340,6 +340,6 @@ We can now see what Craig David, Hard-Fi and God are all up to during the week.
 And that is the power of programming.
 
 ---  
-   
+
 
 ([View the complete Playground script on Github Gists](https://gist.github.com/fiveid/9647add7bcf9a7506e42))
