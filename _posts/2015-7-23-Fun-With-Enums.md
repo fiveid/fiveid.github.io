@@ -71,7 +71,7 @@ var today = Day.Thursday
 today.checkDay() // "The day is Thursday"
 ```
 
-Amazing! Well, ok. That's pretty useless at the moment. We know it's a Monday because we've just defined it as a Monday. Duh.
+Amazing! Well, ok. That's pretty useless at the moment. We know it's a Thursday because we've just defined it as a Thursday. Duh.
 
 But we can do something a bit more useful and add a function that will fast forward us 24 hours and change the value to the next day.
 
