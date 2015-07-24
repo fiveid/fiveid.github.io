@@ -3,17 +3,9 @@ layout: post
 title: Playing Around with Enums, Classes and Protocols in Swift
 ---
 
-Swift, the now-almost-new programming language from Apple, presents a feature set and design emphasis that I find really fascinating. But it was only recently that I started experimenting with the language to any great extent. Whereas I had previously found Apple's Playgrounds feature to be limiting, I've now realised they provide a neat way to faff about with the language in an entertainingly contrived, but informative, way.
-
-This has allowed me to explore interesting programming concepts that I've otherwise overlooked or ignored – either because they are not as prominent / powerful in the languages I use regularly, or because I have not had any pressing need to use them at the scale and scope to which I tend to operate in my day job. And I figured I'd share my experience.
-
-This particular exercise started as a quick experiment with enumerations with no particular aim in mind. So, if you want to learn a little about the basics of enumerations (as well as some other Swift odds and sods) in a mostly impractical scenario, read on...
+An enum (short for enumeration) is a predefined collection of related values. Think of it like a dropdown menu for use in your code. What this means and why this is useful was the original purpose of this random exercise. If you want to follow along, simply open up a Playground and replicate the code as I ramble along.
 
 _Note: I don't go into much detail about the language syntax. This isn't a tutorial, as such. More of a fun example of what can be done. I may publish a companion post that explains some parts of the code more fully, but that's not the aim here._
-
-## 7 Days
-
-An enum (short for enumeration) is a predefined collection of related values. Think of it like a dropdown menu for use in your code. What this means and why this is useful was the starting point of this random exercise. If you want to follow along, simply open up a Playground and replicate the code as I ramble along.
 
 My starting point was deciding what a good real-world example of an enum would be. The days of the week seemed an obvious choice. After all, there are seven days in the week and you can be certain that's not going to change any time soon.
 
