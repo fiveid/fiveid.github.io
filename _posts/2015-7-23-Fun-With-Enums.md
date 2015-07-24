@@ -323,6 +323,13 @@ class God: LivesByDay {
 Easy! Now we can update our `dailyActivity()` function to accept anything that conforms to our `LivesByDay` protocol. This makes the function far more flexible without any awkwardness.
 
 ```swift
+func dailyActivity(var day: Day, person: LivesByDay) {
+    for _ in 1...7 {
+        person.onThisDay(day)
+        day.next()
+    }
+}
+
 dailyActivity(today, jehovah)
 // Creating all that lives in water / Creating all that lives on dry land / Resting / Creating the heavens and the earth / Creating the sky / Creating dry land / Creating the stars and heavenly bodies
 dailyActivity(today, hardfi)
