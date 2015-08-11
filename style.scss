@@ -514,7 +514,7 @@ p.meta {
 
   @include tablet-portrait {
     background-image: none !important;
-    height: 230px;
+    height: 240px;
   }
   @include mobile {
     height: 320px;
@@ -557,7 +557,7 @@ body.project-page {
     margin-top: 200px;
 
     @include tablet-portrait {
-      margin-top: 60px;
+      margin-top: 80px;
     }
 
   }
