@@ -1,4 +1,3 @@
-
 //
 // VARIABLES
 //
@@ -38,7 +37,7 @@ $courier: Courier, "Courier New", Monaco, Tahoma;
 }
 
 @mixin tablet-portrait {
-  @media screen and (max-width: 728px) {
+  @media screen and (max-width: 768px) {
     @content;
   }
 }
