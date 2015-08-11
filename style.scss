@@ -241,8 +241,14 @@ header h1 {
 
   }
 
-  @include mobile {
+  @include tablet-portrait {
     position: relative;
+    float: left;
+    width: 50%;
+  }
+
+  @include mobile {
+    float: none;
     width: 100%;
   }
 
@@ -254,6 +260,11 @@ header nav {
   margin: 45px auto 0;
   padding: 0;
   position: relative;
+
+  @include tablet-portrait {
+    width: 50%;
+    float: right;
+  }
 
   @include mobile {
     width: 100%;
@@ -501,11 +512,23 @@ p.meta {
     background-color: $wisp;
   }
 
+  @include tablet-portrait {
+    background-image: none !important;
+    height: 230px;
+  }
+  @include mobile {
+    height: 320px;
+  }
+
 }
 
 #sub-nav {
   position: fixed;
   width: 160px;
+
+  @include tablet-portrait {
+    display: none;
+  }
 
   ul {
     padding-left: 0;
@@ -532,6 +555,11 @@ body.project-page {
 
   #content {
     margin-top: 200px;
+
+    @include tablet-portrait {
+      margin-top: 60px;
+    }
+
   }
 
   header a {

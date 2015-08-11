@@ -37,6 +37,12 @@ $courier: Courier, "Courier New", Monaco, Tahoma;
   }
 }
 
+@mixin tablet-portrait {
+  @media screen and (max-width: 728px) {
+    @content;
+  }
+}
+
 @mixin tablet {
   @media screen and (max-width: 1024px) {
     @content;
