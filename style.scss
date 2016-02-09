@@ -7,6 +7,7 @@
 
 @import "_reset";
 @import "_variables";
+@import "_svg-icons";
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
 // Syntax highlighting @import is at the bottom of this file
 
@@ -140,14 +141,14 @@ sup {
 
 code {
   font-family: $courier;
-  background: #eee;
+  background: transparent;
   color: rgb(100,100,100);
   padding: 0px 2px;
   font-size: 0.9em;
 }
 
 pre {
-  background: #eee;
+  background: transparent;
   overflow: auto;
 }
 
@@ -342,6 +343,47 @@ header .context-nav a {
   margin: 60px auto 30px;
 }
 
+.introduction {
+  width: 600px;
+  margin: 0px auto 90px;
+  box-sizing: border-box;
+
+  @include mobile {
+    width: 95%;
+  }
+
+  h1 {
+    font-size: 1.2em;
+    margin-bottom: 3em;
+    font-weight: bold;
+  }
+  h2 {
+    font-size: 1em;
+    margin-bottom: 1em;
+  }
+  ul {
+    &.language-list {
+      list-style: none;
+      padding: 0;
+      margin: 10px 0 30px;
+      li {
+        display: inline-block;
+        padding: 5px 8px;
+        margin: 5px 5px 10px 0;
+        background: $lightGray;
+        font-size: 0.8em;
+        @include border-radius(3px);
+        &:hover {
+          background: $subtleBlue;
+        }
+        &.button {
+          background: transparent;
+        }
+      }
+    }
+  }
+}
+
 /* Footer */
 
 footer {
@@ -374,6 +416,11 @@ footer ul {
   text-align: left;
   li {
     margin-right: 10px;
+  }
+
+  @include mobile {
+    float: none;
+    text-align: center;
   }
 
 }
@@ -588,8 +635,77 @@ body.project-page {
 
 }
 
+// Holding Page
+#holding-page {
+  width: 600px;
+  height: 400px;
+  position: absolute;
+  background: rgb(255,255,255);
+  top: 200px;
+  left: 200px;
+  .global-nav {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0 60px 0;
+    padding: 0;
+    li {
+      width: 100px;
+      text-align: center;
+      display: inline-block;
+      padding: 2%;
+    }
+  }
+  .social-nav {
+    border-top: 1px dashed $darkBlue;
+    padding: 22px 0;
+    font-size: 0.8em;
+    text-align: center;
+    margin: 0;
+    li {
+      display: inline-block;
+      margin: 0 20px;
+      &.svg-icon {
+        width: 25px;
+        height: 25px;
+        overflow: hidden;
+        background-size: contain;
+        a {
+          width: 25px;
+          height: 25px;
+          overflow: hidden;
+          text-indent: 30px;
+          display: block;
+        }
+      }
+    }
+  }
+  p.copyright {
+    margin-top: 40px;
+    width: 100%;
+    text-align: center;
+    font-size: 0.8em;
+    color: $darkBlue;
+  }
+}
+
+#logo.large-logo {
+  width: 120px;
+  height: 120px;
+  margin: 20px auto;
+  position: relative;
+  a {
+    width: 120px;
+    height: 120px;
+    text-indent: 250px;
+  }
+}
+
 @import "_highlights";
 
 .highlight {
+  background-color: rgb(250,250,250);
   margin-bottom: 2.2em;
+  -moz-box-shadow: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }

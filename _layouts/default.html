@@ -26,19 +26,18 @@
   <body>
 
     <div id="container">
-        <header class="group">
-          {% include header.html %}
-        </header>
+      <header class="group">
+        {% include header.html %}
+      </header>
 
-    <div id="content" role="main" class="container">
-      {{ content }}
+      <div id="content" role="main" class="container">
+        {{ content }}
+      </div>
+
+      <footer class="group">
+        {% include social.html %}
+      </footer>
     </div>
-
-    <footer class="group">
-      {% include social.html %}
-    </footer>
-
-  </div>
 
   <script src="/js/myscript.js"></script>
 

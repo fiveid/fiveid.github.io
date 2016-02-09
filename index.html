@@ -2,21 +2,28 @@
 layout: default
 ---
 
-<div id="posts">
-  {% for post in site.posts %}
-    <article class="post">
+<div id="posts" class="home-page">
 
-      <h1><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+  <section class="introduction">
+    <h1>I am a web designer/developer in London</h1>
+    <h2>Languages and frameworks:</h2>
+    <ul class="language-list">
+      <li>Javascript</li>
+      <li>PHP</li>
+      <li>Swift</li>
+      <li>HTML5</li>
+      <li>CSS3</li>
+      <li>Python</li>
+      <li>Objective-C</li>
+      <li>Rust</li>
+      <li>jQuery</li>
+      <li>Node</li>
+      <li>Laravel</li>
+      <li>Ember</li>
+      <li>Slim</li>
+      <li class="button"><a href="{{ site.baseurl }}/projects/">Browse my projects</a></li>
+    </ul>
+    <p><a href="{{ site.baseurl }}/about">More about me</a></p>
+  </section>
 
-      <p class="meta">
-        {{ post.date | date: "%B %e, %Y" }}
-      </p>
-
-      <div class="excerpt">
-        {{ post.content | truncatewords:40}}
-      </div>
-
-      <a href="{{ site.baseurl }}{{ post.url }}" class="read-more">Read More</a>
-    </article>
-  {% endfor %}
 </div>
