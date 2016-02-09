@@ -17,3 +17,7 @@
 - name: EQtwo Christmas Quiz
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_eqtwo-xmas.png
   url: http://xmas.eqtwo.net
+
+- name: Wordpress View-Controller Theme
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_wp-vc.png
+  url: https://github.com/fiveid/fiveid-vc-twentysixteen
