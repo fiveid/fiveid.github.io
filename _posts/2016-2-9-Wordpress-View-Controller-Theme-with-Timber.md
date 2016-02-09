@@ -67,9 +67,11 @@ Plugin dependencies are then displayed in the admin area like this:
 Obviously, installed plugins are not displayed. It's easy to simply click on the links and install the plugins.  
 
 ## Further Reading
-Although I've already put this approach into practice in a number of work projects, as a public showcase I've applied it to the [TwentySixteen Wordpress theme](https://github.com/WordPress/twentysixteen), which is now available on Github. The repository `readme.md` expands on the structure and approach even further.
+Although I've already put this approach into practice in a number of work projects, as a public showcase I've applied it to the [TwentySixteen Wordpress theme](https://github.com/WordPress/twentysixteen).
 
-[Read more](https://github.com/WordPress/twentysixteen)
+The View-Controller variation is [now available on Github](https://github.com/fiveid/fiveid-vc-twentysixteen). The repository's `readme.md` expands on the structure and approach I took even further.
+
+[Read more](https://github.com/fiveid/fiveid-vc-twentysixteen)
 
 [wp_vc_php]: http://deadlamb.co.uk/portfolio/images/resources/wp-vc-theme_php.png "index.php"
 
