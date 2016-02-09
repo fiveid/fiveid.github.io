@@ -41,7 +41,7 @@ For various reasons, I often end up creating multiple Wordpress installs to test
 
 Dependencies are listed in a `plugins.json` file, stored in the root of the theme. It looks something like this:
 
-```json
+~~~json
 {
   "require": {
     "advanced-custom-fields": ["advanced-custom-fields/acf.php", "*"],
@@ -58,7 +58,7 @@ Dependencies are listed in a `plugins.json` file, stored in the root of the them
   "vendor": {
   }
 }
-```
+~~~
 
 Plugin dependencies are then displayed in the admin area like this:
 
