@@ -232,6 +232,8 @@ header h1 {
     background-repeat: no-repeat;
     background-position: center center;
     text-indent: 150px;
+    border: 3px solid rgba(255,255,255,0.4);
+    @include border-radius(120px);
 
     @include mobile {
       display: block;
@@ -441,6 +443,9 @@ footer ul {
 
   img {
     max-width: 100%;
+    border: 5px solid white;
+    box-sizing: border-box;
+    @include box-shadow(0px, 0px, 5px, rgba(0,0,0,0.3));
   }
 
   @include mobile {
@@ -558,9 +563,10 @@ p.meta {
   &.wisp {
     background-color: $wisp;
   }
-
-  @include tablet-portrait {
+  @include tablet {
     background-image: none !important;
+  }
+  @include tablet-portrait {
     height: 240px;
   }
   @include mobile {

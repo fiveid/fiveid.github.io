@@ -4,6 +4,7 @@ layout: default
 
 <div id="portfolio">
 
+  <!--
   <h2>Projects</h2>
   <ul>
   {% for project in site.projects %}
@@ -14,8 +15,8 @@ layout: default
     </li>
   {% endfor %}
   </ul>
+  -->
 
-  <h2>Demos</h2>
   <ul>
   {% for demo in site.data.demos %}
     <li>
@@ -26,15 +27,17 @@ layout: default
   {% endfor %}
   </ul>
 
+  <!--
   <h2>Work</h2>
   <ul>
   {% for work_demo in site.data.work_demos %}
     <li>
-      <a href="{{ demo.url }}">
+      <a href="{{ work_demo.url }}">
         <img class="lazy" src="http://fiveid.co.uk/portfolio/images/placeholder.png" data-original="{{ work_demo.thumbnail}}" alt="{{ work_demo.name }}" style="display: inline;">
       </a>
     </li>
   {% endfor %}
   </ul>
+  -->
 
 </div>

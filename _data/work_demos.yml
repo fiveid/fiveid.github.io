@@ -1,10 +1,6 @@
-- name: Apsley Gardening Solutions
-  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_apsleygardeningsolutions.png
-  url:
-
 - name: Steve Francis Images
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_sfimages.png
-  url:
+  url: /projects/2016-05-26-sfimages/
 
 - name: Molly Flatt
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_molly-flatt.png

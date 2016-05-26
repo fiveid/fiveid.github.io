@@ -1,3 +1,7 @@
+- name: Sift Three
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_sift.png
+  url: http://fiveid.github.io/projects/2015-03-08-Sift/
+
 - name: Gridmaker
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_gridmaker.png
   url: https://github.com/fiveid/gmaps-gridlines
@@ -21,3 +25,15 @@
 - name: Wordpress View-Controller Theme
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_wp-vc.png
   url: https://github.com/fiveid/fiveid-vc-twentysixteen
+
+- name: Moonstone
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_moonstone.png
+  url: http://fiveid.github.io/projects/2015-03-07-Moonstone/
+
+- name: Wisps
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_wisp.png
+  url: http://fiveid.github.io/projects/2015-03-08-Wisps/
+
+- name: Steve Francis Images
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_sfimages.png
+  url: http://fiveid.github.io/projects/2016-05-26-sfimages/
