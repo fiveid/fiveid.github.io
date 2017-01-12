@@ -4,7 +4,7 @@ title: About
 permalink: /about/
 ---
 
-I am a Web Designer / Developer living in London.
+I am a Web Designer / Developer.
 
 ## Even more about me...
 
