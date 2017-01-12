@@ -566,6 +566,31 @@ p.meta {
   &.under-construction {
     background-color: $darkBlue;
   }
+  &.knowledge {
+    background-color: #56b273;
+  }
+  &.eqtwo {
+    background-color: #000;
+  }
+  &.flyvlm {
+    background-color: #0a4e8f;
+  }
+  &.myhomelife {
+    background-color: #d7125f;
+  }
+  &.paradigm {
+    background-color: #ea8d55;
+  }
+  &.torque {
+    background-color: #000;
+    background-size: auto;
+  }
+  &.lumsspace {
+    background-color: #756c7c;
+  }
+  &.cityshortcourses {
+    background-color: #9d2e3f;
+  }
   @include tablet {
     background-image: none !important;
   }
@@ -640,6 +665,25 @@ body.project-page {
 
   h3 {
     font-size: 1.5em;
+  }
+
+  img {
+    min-height: 200px;
+    width: 100%;
+  }
+
+  .mobile-image {
+    width: 48%;
+    float: left;
+    &.leftalign {
+      float: left;
+    }
+    &.rightalign {
+      float: right;
+    }
+    @include mobile {
+      width: 100%;
+    }
   }
 
 }
