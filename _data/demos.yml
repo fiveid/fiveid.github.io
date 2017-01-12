@@ -10,6 +10,38 @@
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_quiz.png
   url: http://fiveid.co.uk/projects/demos/namethattune
 
+- name: EQtwo
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2017/p_tn_eqtwo.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: NGK Knowledge
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2017/p_tn_knowledge.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: Fly VLM
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_flyvlm.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: My Home Life
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_myhomelife.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: Paradigm Trust
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_paradigm.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: NGK Torque
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_torque.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: LUMS Space
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2017/p_tn_lumsspace.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
+- name: City Short Courses
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_cityshortcourses.png
+  url: http://fiveid.github.io/projects/2017-01-12-Coming-Soon/
+
 - name: Write Your Own Text Adventure in Rust
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_rustadventure.png
   url: https://github.com/fiveid/wyo_adventure

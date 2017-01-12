@@ -563,6 +563,9 @@ p.meta {
   &.wisp {
     background-color: $wisp;
   }
+  &.under-construction {
+    background-color: $darkBlue;
+  }
   @include tablet {
     background-image: none !important;
   }
