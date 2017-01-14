@@ -11,9 +11,9 @@ header:
 ## Consultation Nanosite
 
 <br/>
-Consultation website for ambitious infrastructure project at Lancaster University Management School. Aiming to encourage feedback on forthcoming redevelopments to the buildings.
+Single page website to invite consultations for an ambitious infrastructure project at Lancaster University Management School.
 
-Focused, clean, and clear. 
+The single page website solution was cost-effective and allowed for quick deployment. The design is focused, clean, and clear on desktop and mobile.
 
 ![LUMS Space](http://fiveid.co.uk/portfolio/portfolio_images/2017/lums_01.jpg)
 
@@ -21,4 +21,4 @@ Focused, clean, and clear.
 
 ![LUMS Space](http://fiveid.co.uk/portfolio/portfolio_images/2017/lums_03.jpg)
 
-[Link](http://lums.space)
+[Link](http://lums.space){:target="_blank"}

@@ -8,12 +8,14 @@ header: http://fiveid.co.uk/portfolio/portfolio_images/2017/cityshortcourses_hea
 
 # City Short Courses
 
-## Course Information Microsite
+## Marketing Microsite
 
 <br/>
-We created a course info microsite for City University London to promote short courses. The microsite brought forward case studies, personal stories, and visual character, with more flexibility than was available on the main university website at the time.
+Created a marketing microsite for City University London short courses, as part of a larger marketing push that featured online and offline aspects. The microsite was designed to be more engaging and flexible than the standard course search via the main website.
 
-During the first year of the City Short Courses website activity, alongside offline marketing, City University London saw an increase of 28% in bookings, and a decrease of over 60% in course cancellations.
+The microsite had a striking design and a user-centric structure that meant vital content was never more than a couple of page loads away. We incorporated emotive case studies, relatable stories, and visual character.
+
+During the first year of website activity, City University London saw an increase of 28% in bookings and a decrease of over 60% in course cancellations.
 
 ![City Short Courses 01](http://fiveid.co.uk/portfolio/portfolio_images/2017/cityshortcourses_01.jpg)
 

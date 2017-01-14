@@ -1,9 +1,11 @@
 <div id="logo"><h1><a href="{{ site.baseurl }}/">5id</a></h1></div>
 
+{% assign current = page.url | downcase | split: '/' %}
+
 <nav class="group">
   <ul class="global-nav">
-    <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-    <li><a href="{{ site.baseurl }}/about">About</a></li>
-    <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+    <li {% if current[1] == 'projects' %}class='current'{% endif %}><a href="{{ site.baseurl }}/projects">Projects</a></li>
+    <li {% if current[1] == 'about' %}class='current'{% endif %}><a href="{{ site.baseurl }}/about">About</a></li>
+    <li {% if current[1] == 'blog' %}class='current'{% endif %}><a href="{{ site.baseurl }}/blog">Blog</a></li>
   </ul>
 </nav>

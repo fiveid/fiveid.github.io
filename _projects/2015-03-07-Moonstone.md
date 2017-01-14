@@ -11,7 +11,7 @@ header: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_head_moonstone.png
 ## Twitter Reporter
 
 <br/>
-A beautiful and simple social media reporting tool. Uses HTML5 and a PHP backend, connecting to the Twitter API.
+A beautiful and simple social media reporting tool. Uses HTML5 and a custom PHP backend, connecting to the Twitter API.
 
 ![Moonstone Screenshot 01](http://fiveid.co.uk/portfolio/portfolio_images/2016/moonstone_screenshot_01.jpg)
 
@@ -19,4 +19,4 @@ A beautiful and simple social media reporting tool. Uses HTML5 and a PHP backend
 
 Designed for producing simple highlights of social media activity.
 
-[Link](http://fiveid.co.uk/projects/moonstone/beta/)
+[Link](http://fiveid.co.uk/projects/moonstone/beta/){:target="_blank"}

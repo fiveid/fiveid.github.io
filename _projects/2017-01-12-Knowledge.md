@@ -10,13 +10,11 @@ thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2017/p_tn_knowledge.pn
 ## Interactive Training Environment
 
 <br/>
-Knowledge. Expertise. Learning. All central to the NGK digital presence.
+Knowledge. Expertise. Learning. All are central to the NGK digital presence. As part of EQtwo, we revolutionised NGK online training with graphical learning resources and interactive quiz. The platform was designed to increase awareness of a new product line and improve sales effectiveness.  
 
-Graphical learning resources and quiz. Designed to increase awareness of a new product range and improve sales effectiveness.  
+The initial trial involved a partnership with a single customer. Over 100 employees took part across 18 branches with an overall training pass rate of 94%. This far exceeded the customer’s expectations.
 
-In the initial trial in partnership with a single customer, over 100 employees took part across 18 branches. This exceeded the customer’s expectations. 94% pass rate.
-
-Redeveloped in 2016-17 for a wider audience.
+NGK Knowledge was under redevelopment in 2016-17 for use with a wider audience.
 
 ![NGK Knowledge Homepage](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_01.png)
 
@@ -30,8 +28,8 @@ Restricted access via user logins. User records stored in a database, tied to a 
 
 ![NGK Knowledge Login](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_03.png)
 
-Reporting section allows customers to review staff performance. Rewarding users.
+Reporting section allows customers to review staff performance.
 
 ![NGK Knowledge Reporting](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_05.png)
 
-[Link](http://ngk.eqtwo.net/knowledge/2016/preview/)
+[Link](http://ngk.eqtwo.net/knowledge/2016/preview/){:target="_blank"}

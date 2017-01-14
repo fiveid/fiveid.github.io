@@ -311,6 +311,12 @@ header nav {
     float: none;
   }
 
+  li.current {
+    a {
+      color: $darkBlue;
+    }
+  }
+
 }
 
 .context-nav {
@@ -376,7 +382,7 @@ header .context-nav a {
         font-size: 0.8em;
         @include border-radius(3px);
         &:hover {
-          background: $subtleBlue;
+          //background: $subtleBlue;
         }
         &.button {
           background: transparent;
@@ -696,6 +702,11 @@ body.project-page {
   background: rgb(255,255,255);
   top: 200px;
   left: 200px;
+  @include mobile {
+    width: 100%;
+    top: 100px;
+    left: 0px;
+  }
   .global-nav {
     width: 100%;
     text-align: center;
