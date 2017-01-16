@@ -10,6 +10,10 @@
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_flyvlm.png
   url: http://fiveid.github.io/projects/2017-01-12-flyvlm/
 
+- name: Wordpress Survey Plugin
+  thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2017/p_tn_wp-survey.png
+  url: http://fiveid.github.io/projects/2017-01-16-WPSurvey/
+
 - name: My Home Life
   thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2015/p_tn_myhomelife.png
   url: http://fiveid.github.io/projects/2017-01-12-MyHomeLife/
