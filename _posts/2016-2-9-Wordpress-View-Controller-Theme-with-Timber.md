@@ -73,8 +73,8 @@ The View-Controller variation is [now available on Github](https://github.com/fi
 
 [Read more](https://github.com/fiveid/fiveid-vc-twentysixteen)
 
-[wp_vc_php]: http://deadlamb.co.uk/portfolio/images/resources/wp-vc-theme_php.png "index.php"
+[wp_vc_php]: https://demontrout-ltstorage.s3.amazonaws.com/misc/wp-vc-theme_php.png "index.php"
 
-[wp_vc_twig]: http://deadlamb.co.uk/portfolio/images/resources/wp-vc-theme_twig.png "index.php"
+[wp_vc_twig]: https://demontrout-ltstorage.s3.amazonaws.com/misc/wp-vc-theme_twig.png "index.php"
 
-[wp_vc_dependencies]: http://deadlamb.co.uk/portfolio/images/resources/wp-vc-theme_dependencies.png "Theme dependency notices"
+[wp_vc_dependencies]: https://demontrout-ltstorage.s3.amazonaws.com/misc/wp-vc-theme_dependencies.png "Theme dependency notices"

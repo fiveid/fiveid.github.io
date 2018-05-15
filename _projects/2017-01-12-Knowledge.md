@@ -2,7 +2,7 @@
 layout: project
 title: NGK Knowledge
 class: knowledge
-thumbnail: http://fiveid.co.uk/portfolio/portfolio_images/2017/p_tn_knowledge.png
+thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_knowledge.png
 ---
 
 # NGK Knowledge
@@ -16,20 +16,19 @@ The initial trial involved a partnership with a single customer. Over 100 employ
 
 NGK Knowledge was under redevelopment in 2016-17 for use with a wider audience.
 
-![NGK Knowledge Homepage](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_01.png)
+![NGK Knowledge Homepage](https://demontrout-ltstorage.s3.amazonaws.com/2017/knowledge_01.png)
 
 Bold, engaging, easy to digest learning material followed by a quick multiple choice test. If passed, user receives a certificate.
 
-![NGK Knowledge Learning](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_02.png)
+![NGK Knowledge Learning](https://demontrout-ltstorage.s3.amazonaws.com/2017/knowledge_02.png)
 
-![NGK Knowledge Quiz](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_04.png)
+![NGK Knowledge Quiz](https://demontrout-ltstorage.s3.amazonaws.com/2017/knowledge_04.png)
 
 Restricted access via user logins. User records stored in a database, tied to a _customer id_ and _branch id_.
 
-![NGK Knowledge Login](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_03.png)
+![NGK Knowledge Login](https://demontrout-ltstorage.s3.amazonaws.com/2017/knowledge_03.png)
 
 Reporting section allows customers to review staff performance.
 
-![NGK Knowledge Reporting](http://fiveid.co.uk/portfolio/portfolio_images/2017/knowledge_05.png)
+![NGK Knowledge Reporting](https://demontrout-ltstorage.s3.amazonaws.com/2017/knowledge_05.png)
 
-[Link](http://ngk.eqtwo.net/knowledge/2016/preview/){:target="_blank"}

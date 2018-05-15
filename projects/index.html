@@ -3,41 +3,17 @@ layout: default
 ---
 
 <div id="portfolio">
-
-  <!--
-  <h2>Projects</h2>
-  <ul>
-  {% for project in site.projects %}
-    <li>
-      <a href="{{ project.url }}">
-        <img class="lazy" src="http://fiveid.co.uk/portfolio/images/placeholder.png" data-original="{{ project.thumbnail}}" alt="{{ project.name }}" style="display: inline;">
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-  -->
-
   <ul>
   {% for demo in site.data.demos %}
     <li>
+      {% if demo.page %}
+      <a href="{{ site.baseurl }}{{ demo.page }}">
+      {% else %} 
       <a href="{{ demo.url }}">
-        <img class="lazy" src="http://fiveid.co.uk/portfolio/images/placeholder.png" data-original="{{ demo.thumbnail}}" alt="{{ demo.name }}" style="display: inline;">
+      {% endif %}
+        <img class="lazy" src="https://demontrout-ltstorage.s3.amazonaws.com/placeholder.png" data-original="{{ demo.thumbnail}}" alt="{{ demo.name }}" style="display: inline;">
       </a>
     </li>
   {% endfor %}
   </ul>
-
-  <!--
-  <h2>Work</h2>
-  <ul>
-  {% for work_demo in site.data.work_demos %}
-    <li>
-      <a href="{{ work_demo.url }}">
-        <img class="lazy" src="http://fiveid.co.uk/portfolio/images/placeholder.png" data-original="{{ work_demo.thumbnail}}" alt="{{ work_demo.name }}" style="display: inline;">
-      </a>
-    </li>
-  {% endfor %}
-  </ul>
-  -->
-
 </div>

@@ -1,38 +1,47 @@
 - name: EQtwo
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_eqtwo.png
   url: http://fiveid.github.io/projects/2017-01-12-EQtwo/
+  page: /projects/2017-01-12-EQtwo/
 
 - name: NGK Knowledge
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_knowledge.png
   url: http://fiveid.github.io/projects/2017-01-12-Knowledge/
+  page: /projects/2017-01-12-Knowledge/
 
 - name: Fly VLM
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_flyvlm.png
   url: http://fiveid.github.io/projects/2017-01-12-flyvlm/
+  page: /projects/2017-01-12-flyvlm/
 
 - name: Wordpress Survey Plugin
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_wp-survey.png
   url: http://fiveid.github.io/projects/2017-01-16-WPSurvey/
+  page: /projects/2017-01-16-WPSurvey/
 
 - name: My Home Life
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_myhomelife.png
   url: http://fiveid.github.io/projects/2017-01-12-MyHomeLife/
+  page: /projects/2017-01-12-MyHomeLife/
 
 - name: Paradigm Trust
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_paradigm.png
   url: http://fiveid.github.io/projects/2017-01-12-Paradigm/
+  page: /projects/2017-01-12-Paradigm/
 
 - name: NGK Torque
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_torque.png
   url: http://fiveid.github.io/projects/2017-01-12-Torque/
+  page: /projects/2017-01-12-Torque/
 
 - name: LUMS Space
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_lumsspace.png
   url: http://fiveid.github.io/projects/2017-01-12-LumsSpace/
+  page: /projects/2017-01-12-LumsSpace/
 
 - name: City Short Courses
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_cityshortcourses.png
   url: http://fiveid.github.io/projects/2017-01-12-CityShortCourses/
+  page: /projects/2017-01-12-CityShortCourses/
 
 - name: Randomness Test
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2017/p_tn_randomness.png
@@ -53,18 +62,22 @@
 - name: Moonstone
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_moonstone.png
   url: http://fiveid.github.io/projects/2015-03-07-Moonstone/
+  page: /projects/2015-03-07-Moonstone/
 
 - name: Steve Francis Images
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_sfimages.png
   url: http://fiveid.github.io/projects/2016-05-26-sfimages/
+  page: /projects/2016-05-26-sfimages/
 
 - name: Sift Three
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_sift.png
   url: http://fiveid.github.io/projects/2015-03-08-Sift/
+  page: /projects/2015-03-08-Sift/
 
 - name: Wisps
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_wisp.png
   url: http://fiveid.github.io/projects/2015-03-08-Wisps/
+  page: /projects/2015-03-08-Wisps/
 
 - name: Gridmaker
   thumbnail: https://demontrout-ltstorage.s3.amazonaws.com/2015/p_tn_gridmaker.png
