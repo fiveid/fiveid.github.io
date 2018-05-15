@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  jekyll:
+    image: jekyll/jekyll:pages
+    working_dir: /srv/jekyll
+    volumes:
+      - .:/srv/jekyll:consistent
+    ports:
+      - "4000:4000"
+    command: jekyll serve --watch --incremental
