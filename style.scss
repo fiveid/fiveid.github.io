@@ -5,10 +5,11 @@
 // IMPORTS
 //
 
+@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
+
 @import "_reset";
 @import "_variables";
 @import "_svg-icons";
-@import url("http://fonts.googleapis.com/css?family=Open+Sans:400,700");
 // Syntax highlighting @import is at the bottom of this file
 
 /**************/
@@ -21,7 +22,8 @@ html {
 
 body {
   background: $white;
-  font: 15px/1.8em $openSans;
+  font-family: $openSans;
+  font-size: 15px/1.8em;
   color: $darkGray;
   position: relative;
 }
