@@ -23,7 +23,8 @@ html {
 body {
   background: $white;
   font-family: $openSans;
-  font-size: 15px/1.8em;
+  font-size: 15px;
+  line-height: 1.8em;
   color: $darkGray;
   position: relative;
 }
